@@ -1,0 +1,27 @@
+package pj4;
+
+public class MainClass { 
+	
+	
+	public static void main(String[] args) {
+		
+		MyClass mC = new MyClass();
+		
+		int a2 = 5;
+		int b2 = 9;
+		int c2 = 0;
+		
+		System.out.println(mC.getA() + " " + mC.getB() + " " + mC.getC());
+		
+		System.out.println(a2 + " "+ b2 + " " + c2);
+		
+		mC.setA(a2);
+		mC.setB(b2);
+		mC.setC(mC.getA()+mC.getB());
+		
+		System.out.println(mC.getA() + " " + mC.getB() + " " + mC.getC());
+		
+
+	}
+
+}
